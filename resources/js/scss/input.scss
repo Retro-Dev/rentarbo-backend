@@ -1,0 +1,37 @@
+input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(55, 60, 88, 0.5);
+    opacity: 1; /* Firefox */
+    font-size: 14px;
+}
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgba(55, 60, 88, 0.5);
+}
+input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgba(55, 60, 88, 0.5);
+}
+.base-input {
+    border-radius: 10px !important;
+    background-color: #f3f5f7 !important;
+    display: flex;
+    align-items: center;
+
+    .ant-input-prefix {
+        margin-inline-end: 10px !important;
+        img {
+            height: 20px;
+            object-fit: contain;
+            opacity: 30%;
+        }
+    }
+    input {
+        background-color: #f3f5f7 !important;
+        font-size: 12px !important;
+        color: rgba(55, 60, 88, 0.5) !important;
+    }
+}
+.p-70 {
+    padding: 70px !important;
+}

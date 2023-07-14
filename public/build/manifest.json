@@ -1,0 +1,65 @@
+{
+  "public/fonts/Gilroy-Light.ttf": {
+    "file": "assets/Gilroy-Light-a8862202.ttf",
+    "src": "public/fonts/Gilroy-Light.ttf"
+  },
+  "public/fonts/Gilroy-Medium.ttf": {
+    "file": "assets/Gilroy-Medium-7b3c8435.ttf",
+    "src": "public/fonts/Gilroy-Medium.ttf"
+  },
+  "public/fonts/Gilroy-Regular.ttf": {
+    "file": "assets/Gilroy-Regular-29d02f71.ttf",
+    "src": "public/fonts/Gilroy-Regular.ttf"
+  },
+  "public/fonts/Gilroy-SemiBold.ttf": {
+    "file": "assets/Gilroy-SemiBold-8b4f5562.ttf",
+    "src": "public/fonts/Gilroy-SemiBold.ttf"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-6eaa04df.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/Gilroy-Regular-29d02f71.ttf",
+      "assets/Gilroy-SemiBold-8b4f5562.ttf",
+      "assets/Gilroy-Medium-7b3c8435.ttf",
+      "assets/Gilroy-Light-a8862202.ttf"
+    ],
+    "css": [
+      "assets/app-6eaa04df.css"
+    ],
+    "dynamicImports": [
+      "resources/js/pages/common/home/index.jsx",
+      "resources/js/pages/auth/sigup/index.jsx",
+      "resources/js/pages/auth/login/index.jsx"
+    ],
+    "file": "assets/app-b326aaf3.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/pages/auth/login/index.jsx": {
+    "file": "assets/index-20be6c75.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/pages/auth/login/index.jsx"
+  },
+  "resources/js/pages/auth/sigup/index.jsx": {
+    "file": "assets/index-b35a41e5.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/pages/auth/sigup/index.jsx"
+  },
+  "resources/js/pages/common/home/index.jsx": {
+    "file": "assets/index-68d24dbe.js",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/pages/common/home/index.jsx"
+  }
+}
